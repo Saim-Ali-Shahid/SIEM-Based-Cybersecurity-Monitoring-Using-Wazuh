@@ -5,6 +5,17 @@ Enterprise SIEM implementation using **Wazuh** for centralized log collection, f
 
 ---
 
+```markdown
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-orange)
+![Windows](https://img.shields.io/badge/Windows-10-blue)
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-blue)
+![VMware](https://img.shields.io/badge/VMware-Workstation-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![SOC](https://img.shields.io/badge/SOC-Analyst-red)
+![Blue Team](https://img.shields.io/badge/Blue-Team-success)
+```
+
 ## 📌 Project Overview
 
 This project demonstrates the deployment of an enterprise Security Information and Event Management (SIEM) solution using **Wazuh** in a virtualized cybersecurity laboratory. The environment consists of an Ubuntu-based Wazuh Server, a Windows 10 endpoint, and a Kali Linux attacker machine connected through an isolated virtual network.
