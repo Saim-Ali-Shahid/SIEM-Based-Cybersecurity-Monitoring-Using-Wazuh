@@ -1,0 +1,29 @@
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.cache
+*.bak
+
+# Archives
+*.zip
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+
+# Environment files
+.env
