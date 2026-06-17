@@ -1,0 +1,34 @@
+<!--
+Custom Wazuh Rules
+Project:
+Enterprise SIEM Monitoring with Wazuh
+-->
+
+<group name="custom,ssh,">
+
+    <!-- Detect every failed SSH login -->
+    <rule id="100100" level="10">
+        <if_sid>5760</if_sid>
+        <description>Custom Alert: SSH Login Failure Detected</description>
+        <group>ssh_failed_login,authentication_failed</group>
+    </rule>
+
+    <!-- Detect possible SSH brute-force attack -->
+    <rule id="100101"
+          level="12"
+          frequency="5"
+          timeframe="60">
+
+        <if_matched_sid>5760</if_matched_sid>
+
+        <description>
+            Custom Alert: Possible SSH Brute Force Attack
+        </description>
+
+        <group>
+            ssh_bruteforce,attack
+        </group>
+
+    </rule>
+
+</group>
