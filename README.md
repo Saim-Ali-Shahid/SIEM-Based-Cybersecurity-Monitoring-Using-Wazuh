@@ -1,31 +1,30 @@
 <p align="center">
-    <img src="images/banner.png" alt="SIEM-Based Cybersecurity Monitoring Using Wazuh">
+  <img src="images/banner.png" alt="SIEM-Based Cybersecurity Monitoring Using Wazuh">
 </p>
+
 <h1 align="center">
 SIEM-Based Cybersecurity Monitoring Using Wazuh
 </h1>
 
 <p align="center">
-Enterprise SIEM Implementation using Wazuh for centralized log collection, file integrity monitoring, endpoint security monitoring, attack simulation, custom detection rules, and security event analysis.
+Enterprise SIEM implementation using Wazuh for centralized log collection, file integrity monitoring (FIM), endpoint security monitoring, attack simulation, custom detection rules, and security event analysis.
 </p>
 
-```markdown
-# SIEM-Based Cybersecurity Monitoring Using Wazuh
+<p align="center">
 
-Enterprise SIEM implementation using **Wazuh** for centralized log collection, file integrity monitoring (FIM), endpoint security, attack simulation, custom detection rules, and security event analysis.
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-0052CC?style=for-the-badge&logo=wazuh&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-10-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-Workstation-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-Network%20Scanner-00457C?style=for-the-badge)
+![Hydra](https://img.shields.io/badge/Hydra-Brute%20Force-8A2BE2?style=for-the-badge)
+![XML](https://img.shields.io/badge/XML-Custom%20Rules-FF6600?style=for-the-badge)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+</p>
 
 ---
-
-```markdown
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-26.04-orange)
-![Windows](https://img.shields.io/badge/Windows-10-blue)
-![Kali Linux](https://img.shields.io/badge/Kali-Linux-blue)
-![VMware](https://img.shields.io/badge/VMware-Workstation-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![SOC](https://img.shields.io/badge/SOC-Analyst-red)
-![Blue Team](https://img.shields.io/badge/Blue-Team-success)
-```
 
 ## 📌 Project Overview
 
@@ -82,10 +81,10 @@ The project focuses on monitoring endpoint activities, collecting security logs,
 
 ## 📂 Project Structure
 
-```
-
+```text
 .
 ├── README.md
+├── LICENSE
 ├── documentation/
 │   └── Enterprise_SIEM_Wazuh_Project_Report.pdf
 ├── config/
@@ -93,15 +92,16 @@ The project focuses on monitoring endpoint activities, collecting security logs,
 │   ├── ossec.conf
 │   └── agent.conf
 ├── images/
+│   └── banner.png
 └── screenshots/
-
+    └── (Project implementation screenshots)
 ```
 
 ---
 
 ## 🔐 Implemented Modules
 
-### Module 1 – Log Collection
+### Module 1 – Centralized Log Collection
 
 - Centralized log collection
 - Windows Event Logs
@@ -109,14 +109,14 @@ The project focuses on monitoring endpoint activities, collecting security logs,
 - SSH Logs
 - Wazuh Dashboard monitoring
 
-### Module 2 – File Integrity Monitoring
+### Module 2 – File Integrity Monitoring (FIM)
 
 - Critical file monitoring
 - Real-time file change detection
 - Integrity validation
 - Security alert generation
 
-### Module 3 – Endpoint Security
+### Module 3 – Endpoint Security Monitoring
 
 Two cyberattack simulations were performed:
 
@@ -129,10 +129,12 @@ Custom Wazuh detection rules were developed to identify these attack activities 
 
 ## 🛡 Custom Detection Rules
 
-Implemented custom rules for:
+Two custom Wazuh detection rules were developed to improve threat visibility:
 
-- SSH Login Failure Detection
-- SSH Brute Force Detection
+- **Rule ID 100100** – Detects SSH authentication failures.
+- **Rule ID 100101** – Detects multiple SSH authentication failures within a defined time window, indicating a potential brute-force attack.
+
+These rules increase the effectiveness of endpoint monitoring by generating high-priority alerts for suspicious authentication activities.
 
 ---
 
@@ -151,20 +153,56 @@ Implemented custom rules for:
 
 ## 📖 Documentation
 
-Complete implementation details, configurations, commands, screenshots, and results are available in the project documentation located in the **documentation** directory.
+Comprehensive project documentation is available in the `documentation` directory. It includes:
 
+- Project objectives
+- Lab environment configuration
+- Wazuh installation and setup
+- Log collection implementation
+- File Integrity Monitoring configuration
+- Endpoint security monitoring
+- Nmap reconnaissance simulation
+- Hydra brute-force attack simulation
+- Custom Wazuh rule development
+- Security event analysis
+- Results and conclusions
 ---
+
+## 💡 Skills Demonstrated
+
+- Security Information and Event Management (SIEM)
+- Wazuh Deployment and Configuration
+- Endpoint Security Monitoring
+- Centralized Log Collection
+- File Integrity Monitoring (FIM)
+- Security Event Analysis
+- Threat Detection Engineering
+- Linux System Administration
+- Windows Endpoint Monitoring
+- SSH Security Monitoring
+- Nmap Reconnaissance Detection
+- Hydra Brute-Force Detection
+- Custom Wazuh Rule Development
+- Virtualization using VMware Workstation
 
 ## 👨‍💻 Author
 
 **Saim Ali Shahid**
 
-Cybersecurity Student | SOC Analyst Enthusiast | SIEM | Threat Detection | Blue Team
+Cybersecurity Student | SIEM Enthusiast | SOC Analyst Aspirant | Blue Team | Threat Detection | Incident Monitoring
 
+### 🌐 Connect with Me
+
+- **GitHub:** https://github.com/Saim-Ali-Shahid
+- **LinkedIn:** https://www.linkedin.com/in/saim-ali-shahid/
+
+---
+
+⭐ **If you found this project helpful, consider giving it a star on GitHub!**
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the `LICENSE` file for additional information.
 ```
 
