@@ -1,3 +1,14 @@
+<p align="center">
+    <img src="images/banner.png" alt="SIEM-Based Cybersecurity Monitoring Using Wazuh">
+</p>
+<h1 align="center">
+SIEM-Based Cybersecurity Monitoring Using Wazuh
+</h1>
+
+<p align="center">
+Enterprise SIEM Implementation using Wazuh for centralized log collection, file integrity monitoring, endpoint security monitoring, attack simulation, custom detection rules, and security event analysis.
+</p>
+
 ```markdown
 # SIEM-Based Cybersecurity Monitoring Using Wazuh
 
