@@ -153,37 +153,9 @@ These rules increase the effectiveness of endpoint monitoring by generating high
 
 ## 📖 Documentation
 
-Comprehensive project documentation is available in the `documentation` directory. It includes:
+📄 **Download the Project Report**
 
-- Project objectives
-- Lab environment configuration
-- Wazuh installation and setup
-- Log collection implementation
-- File Integrity Monitoring configuration
-- Endpoint security monitoring
-- Nmap reconnaissance simulation
-- Hydra brute-force attack simulation
-- Custom Wazuh rule development
-- Security event analysis
-- Results and conclusions
----
-
-## 💡 Skills Demonstrated
-
-- Security Information and Event Management (SIEM)
-- Wazuh Deployment and Configuration
-- Endpoint Security Monitoring
-- Centralized Log Collection
-- File Integrity Monitoring (FIM)
-- Security Event Analysis
-- Threat Detection Engineering
-- Linux System Administration
-- Windows Endpoint Monitoring
-- SSH Security Monitoring
-- Nmap Reconnaissance Detection
-- Hydra Brute-Force Detection
-- Custom Wazuh Rule Development
-- Virtualization using VMware Workstation
+[SIEM Based Cybersecurity Monitoring Report](Documentation/SIEM_Based_Cybersecurity_Monitoring_Report.pdf)
 
 ## 👨‍💻 Author
 
