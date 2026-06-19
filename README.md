@@ -34,6 +34,27 @@ The project focuses on monitoring endpoint activities, collecting security logs,
 
 ---
 
+## 🏗️ Solution Architecture
+
+The following architecture illustrates the deployment of the SIEM-based cybersecurity monitoring environment implemented in this project.
+
+<p align="center">
+  <img src="images/architecture-diagram.png" alt="Wazuh SIEM Architecture" width="100%">
+</p>
+
+**Architecture Components**
+
+- Ubuntu Wazuh Server (Manager, Indexer, Dashboard)
+- Windows 10 Endpoint with Wazuh Agent
+- Kali Linux Attacker Machine
+- Centralized Log Collection
+- File Integrity Monitoring (FIM)
+- Custom Detection Rules
+- Security Event Analysis
+- Attack Simulation using Nmap and Hydra
+
+---
+
 ## 🎯 Objectives
 
 - Deploy a centralized SIEM platform using Wazuh
