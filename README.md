@@ -39,19 +39,18 @@ The project focuses on monitoring endpoint activities, collecting security logs,
 The following architecture illustrates the deployment of the SIEM-based cybersecurity monitoring environment implemented in this project.
 
 <p align="center">
-  <img src="images/architecture-diagram.png" alt="Wazuh SIEM Architecture" width="100%">
+  <img src="images/architecture-diagram.png"
+       alt="SIEM-Based Cybersecurity Monitoring Using Wazuh Architecture"
+       width="100%">
 </p>
 
-**Architecture Components**
+### Architecture Overview
 
-- Ubuntu Wazuh Server (Manager, Indexer, Dashboard)
-- Windows 10 Endpoint with Wazuh Agent
-- Kali Linux Attacker Machine
-- Centralized Log Collection
-- File Integrity Monitoring (FIM)
-- Custom Detection Rules
-- Security Event Analysis
-- Attack Simulation using Nmap and Hydra
+- Ubuntu Wazuh Server hosts the Wazuh Manager, Indexer, and Dashboard.
+- Windows 10 acts as the monitored endpoint with the Wazuh Agent installed.
+- Kali Linux is used to simulate cyberattacks, including Nmap reconnaissance and Hydra SSH brute-force attacks.
+- The Wazuh Server collects, analyzes, and visualizes security events in real time.
+- Custom Wazuh rules detect SSH login failures and brute-force attempts, generating high-priority alerts.
 
 ---
 
