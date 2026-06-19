@@ -172,6 +172,24 @@ The report contains:
 - Custom Wazuh detection rules
 - Security event analysis
 - Results and conclusions
+
+---
+
+## 🌍 Lab Environment
+
+Detailed information about the laboratory setup, virtual machines, network architecture, and software configuration is available in **Environment.md**.
+
+The document includes:
+
+- Host machine specifications
+- Virtual machine configurations
+- Network topology
+- Software stack
+- Project modules
+- Detection rules
+- Technologies used
+- Skills demonstrated
+
 ## 👨‍💻 Author
 
 **Saim Ali Shahid**
