@@ -153,10 +153,25 @@ These rules increase the effectiveness of endpoint monitoring by generating high
 
 ## 📖 Documentation
 
+The complete project documentation is available as a downloadable PDF.
+
 📄 **Download the Project Report**
 
-[SIEM Based Cybersecurity Monitoring Report](Documentation/SIEM_Based_Cybersecurity_Monitoring_Report.pdf)
+👉 [SIEM Based Cybersecurity Monitoring Report (PDF)](https://raw.githubusercontent.com/Saim-Ali-Shahid/SIEM-Based-Cybersecurity-Monitoring-Using-Wazuh/main/Documentation/SIEM_Based_Cybersecurity_Monitoring_Report.pdf)
 
+The report contains:
+
+- Project objectives
+- Lab environment setup
+- Wazuh deployment
+- Log Collection
+- File Integrity Monitoring (FIM)
+- Endpoint Security Monitoring
+- Nmap attack simulation
+- Hydra brute-force attack simulation
+- Custom Wazuh detection rules
+- Security event analysis
+- Results and conclusions
 ## 👨‍💻 Author
 
 **Saim Ali Shahid**
